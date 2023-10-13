@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+
+:root {
+    --primary-color:#7c3aed;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* box-sizing includes padding and border */
+    
+}
+body{
+    font-family:"Work Sans", sans-serif;
+    text-align: center;    
+}
+header{
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+}
+h1 {
+    /* stars on new line and the avilable screen width */
+    display: block; 
+    font-size: 2rem;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;    
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+li {
+    color: white;
+    display: inline;
+}
+nav > a {
+    padding: 0 0.5rem;
+  }
+header h1 {
+    text-align: left;
+}
+a {
+    text-decoration: none;
+}
+.container{
+    text-align: right;
+}
+
+
+
+output {
+    border: solid 1px;
+}
+.headers{
+    margin-bottom: rem;
+}
+label, .out{
+    display: block;
+    color: var(--primary-color);
+    margin: 2rem;
+    font-size: larger;
+    
+}
+input {
+    width: 100%;
+    max-width: 278px;
+    border-radius: 0.2rem;
+
+
+}
+.side-input{
+    padding: 12px 0.5rem;
+    border: 2px solid var(--primary-color);;
+    border-radius: 0.8rem;
+    
+}
+#hypotenuse-btn{
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: larger;
+    padding: 12px;
+    cursor: pointer;
+    outline: #fff;
+    margin: 1rem auto;
+    display: block;
+
+    
+}
+footer {
+    margin-top: 4%;
+
+}
+.list-unordered, li{
+
+    text-decoration: none;
+    color: yellow;
+
+}
+.quote {
+    margin: 3rem 0rem;
+    background-color: rgb(205, 235, 232);
+    max-width: 50%;
+    margin: 1rem auto;
+}
+#output {
+    padding: 12px 0.5rem;
+    border: 2px solid var(--primary-color);;
+    width: 100%;
+    max-width: 278px;
+    border-radius: 0.2rem;
+    margin: auto;
+    margin-top: 0px;
+
+}
+.container {
+    color: white;
+}

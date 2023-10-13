@@ -5,30 +5,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Area of Triangle</title>
+    <link rel="stylesheet" href="area.css">
 </head>
 
 <body>
-    <nav>
-        <a href="istriangle.html">CalculateTriangle</a>
-        <a href="quiz.html">Quiz</a>
-        <a href="hypo.html">CalculateHypotenuse</a>
-        <a href="area.html">AreaofTriangle</a>
-    </nav>
-    <h1>Area of Triangle</h1>
+    <header>
+        <h1>fun with Triangle</h1>
+        <nav class="container">
+            <a  class="container" href="istriangle.html">CalculateTriangle</a>
+            <a  class="container" href="quiz.html">Quiz</a>
+            <a class="container" href="hypo.html">CalculateHypotenuse</a>
+            <a class="container" href="area.html">AreaofTriangle</a>
+        </nav>
+
+    </header>
+
+    <main class="calculate-area-main">
+
+        <h1 class="headers" >Calculate Area of a triangle</h1>
+        <label for="">Enter The Base of Triangle</label>
+        <input type="number" class="baseheight-input">
     
+        <label for="">Enter The Height of Triangle</label>
+        <input type="number"class="baseheight-input">
 
-    <label for="">Base = </label>
-    <input type="number" class="baseheight-input">
+       
+        
+        <button id="btn">Calculate Area</button>
 
-    <label for="">Height</label>
-    <input type="number" class="baseheight-input">
+        <P class="out">Output</P>
     
-    <button id="btn">Area</button>
+        <div id="output"></div>
+        
+    </main>
+    <section>
+        <p class="quote">
+            "Success comes not just from doing, but from the passionate focused energy behind your doing.
+            <br>
+            Your inner world shapes the outer, so feel your dreams as already realized."
+        </p>
+    </section>
+    
+    <footer>
 
-    <div id="output"></div>
+        <p>2023 | Icandoit</p>
+        
+        <ul class="list-unordered">
+            <li>
+                <a class="links" href=""> Github
+                </a>
+            </li>
+            <li>
+                <a class="links" href="">
+                    x
+                </a>
+            </li>
+            <li>
+                <a class="links" href="">
+                    Instagram
+                </a>
+            </li>
+            
 
+        </ul>
 
-
+    </footer>
     <script src="area.js"></script>
 </body>
 

@@ -4,22 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypotenuse</title>
+    <link rel="stylesheet" href="/hypo.css">
 </head>
 <body>
-    <nav>
-        <a href="istriangle.html">CalculateTriangle</a>
-        <a href="quiz.html">Quiz</a>
-        <a href="hypo.html">CalculateHypotenuse</a>
-        <a href="area.html">AreaofTriangle</a>
-    </nav>
+
+    <header>
+        <h1>fun with Triangle</h1>
+        <nav class="container">
+            <a class="container" href="istriangle.html">CalculateTriangle</a>
+            <a class="container" href="quiz.html">Quiz</a>
+            <a class="container" href="hypo.html">CalculateHypotenuse</a>
+            <a class="container" href="area.html">AreaofTriangle</a>
+        </nav>
+
+    </header>
+
+    <main class="calculate-area-main">
     <h1>Calculate Hypotenuse</h1>
-    <label for="">a = </label>
+
+    <label for="">Enter the base value</label>
     <input type="number" name="" class="side-input">
 
-    <label for="">b = </label>
+    <label for="">Enter the height value</label>
     <input type="number" class="side-input">
+
+
     <button id="hypotenuse-btn">Calculate Hypotenuse</button>
+
     <div class="output"></div>
+
+    </main>
     <script src="hypo.js"></script>
 </body>
+<footer></footer>
 </html>

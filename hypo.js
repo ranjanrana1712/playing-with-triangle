@@ -17,7 +17,7 @@ function calculateHypotenuse(){
     
     const thirdSide = Math.sqrt(sumOfsquaresofTwo);
     
-    outputE1.innerText = "the third side of the triangle is " + thirdSide;
+    outputE1.innerText = "The third side of the triangle is " + thirdSide;
 }
 
 

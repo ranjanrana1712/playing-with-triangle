@@ -12,7 +12,7 @@ function calculateScore() {
     let score  = 0;
     let index = 0;
     // Absolutely! It looks like you're going through each value in formResults and checking if it's equal to the corresponding correct answer in the correctAnswer array. If it is, you're adding 1 to the score. It's like checking each answer in a quiz and giving a point for each correct answer
-    const formResults = new FormData(quizForm);uu
+    const formResults = new FormData(quizForm);
 
     for(let value of formResults.values()){
         if(value === correctAnswer[index]){

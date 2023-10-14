@@ -103,7 +103,7 @@ footer {
 .quote {
     margin: 3rem 0rem;
     background-color: rgb(205, 235, 232);
-    max-width: 50%;
+    max-width: 30%;
     margin: 1rem auto;
 }
 #output {
@@ -118,4 +118,13 @@ footer {
 }
 .container {
     color: white;
+}
+
+section{
+    margin: 2rem 0rem;
+}
+
+.output {
+    font-size: larger;
+    font-weight: bold;
 }

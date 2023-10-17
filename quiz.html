@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangle Quiz</title>
+
+    <link rel="stylesheet" href="/quiz.css">
 </head>
 
 <body>
@@ -12,10 +14,10 @@
     <h1>fun with triangles</h1>
 
     <nav>
-        <a href="istriangle.html">CalculateTriangle</a>
+        <a href="istriangle.html">IsTriangle?</a>
         <a href="quiz.html">Quiz</a>
-        <a href="hypo.html">CalculateHypotenuse</a>
-        <a href="area.html">AreaofTriangle</a>
+        <a href="hypo.html">Hypotenuse</a>
+        <a href="area.html">Area</a>
     </nav>
 </header>
 
@@ -31,14 +33,14 @@
                 angle2 = 45°?
             </p>
 
-            <label for="">
-                <input type="radio" name="question1" value="45°">45°
+            <label for="q-1">
+                <input type="radio" name="question1" value="45°" >45°
             </label>
             <label for="">
-                <input type="radio" name="question1" value="90°">90°
+                <input type="radio" name="question1" value="90°"  >90°
             </label>
             <label for="">
-                <input type="radio" name="question1" value="60°">60°
+                <input type="radio" name="question1" value="60°" >60°
             </label>
             
 
@@ -73,149 +75,123 @@
 
         </div>
         <div class="question-container">
-            <p>What is the third angle for the triangle where angle1 = 45 and angle2 = 90 and angle3 = 45?
-
-                <label for="">
-                    <input type="radio" name="question1" value="45">45
-                </label>
-                <label for="">
-                    <input type="radio" name="question1" value="60">60
-                </label>
-                <label for="">
-                    <input type="radio" name="question1" value="90">90
-                </label>
+            <p>Which of the following can form a right angled triangle?
             </p>
+            <label for="">
+                <input type="radio" name="question4" value="12, 16, 20">12 16 20
+            </label>
+            <label for="">
+                <input type="radio" name="question4" value="14 15 16">14 15 16
+            </label>
+            
+            
 
         </div>
 
         <div class="question-container">
-            <p>What is the third angle for the triangle where angle1 = 45 and angle2 = 90 and angle3 = 45?
-
-                <label for="">
-                    <input type="radio" name="question1" value="45">45
-                </label>
-                <label for="">
-                    <input type="radio" name="question1" value="60">60
-                </label>
-                <label for="">
-                    <input type="radio" name="question1" value="90">90
-                </label>
+            <p>Which of the following trianlges are always similar?
             </p>
+            <label for="">
+                <input type="radio" name="question5" value="Equilateral triangle">Equilateral triangle
+            </label>
+            <label for="">
+                <input type="radio" name="question5" value="Isosceles triangle">Isosceles triangle
+            </label>
+           
 
         </div>
 
         <div class="question-container">
-            <p>What is the third angle for the triangle where angle1 = 45 and angle2 = 90 and angle3 = 45?
-
-                <label for="">
-                    <input type="radio" name="question1" value="45">45
-                </label>
-                <label for="">
-                    <input type="radio" name="question1" value="60">60
-                </label>
-                <label for="">
-                    <input type="radio" name="question1" value="90">90
-                </label>
+            <p>If one angle of a triangle is obtuse, then which one of the following is the possible measure of remaining angles?
             </p>
+            <label for="">
+                <input type="radio" name="question6" value="100°">100°
+            </label>
+            <label for="">
+                <input type="radio" name="question7" value="85°">85°
+            </label>
+            <label for="">
+                <input type="radio" name="question1" value="90">90
+            </label>
+           
 
         </div>
 
         <div class="question-container">
-            <p>What is the third angle for the triangle where angle1 = 45 and angle2 = 90 and angle3 = 45?
-
-                <label for="">
-                    <input type="radio" name="question1" value="45">45
-                </label>
-                <label for="">
-                    <input type="radio" name="question1" value="60">60
-                </label>
-                <label for="">
-                    <input type="radio" name="question1" value="90">90
-                </label>
+            <p> If the largest angle in a triangle is 70°, what is the least possible value of the smallest angle of the triangle?
             </p>
+            <label for="">
+                <input type="radio" name="question7" value="30°">30°
+            </label>
+            <label for="">
+                <input type="radio" name="question7" value="10°">10°
+            </label>
 
         </div>
 
         <div class="question-container">
-            <p>What is the third angle for the triangle where angle1 = 45 and angle2 = 90 and angle3 = 45?
-
-                <label for="">
-                    <input type="radio" name="question1" value="45">45
-                </label>
-                <label for="">
-                    <input type="radio" name="question1" value="60">60
-                </label>
-                <label for="">
-                    <input type="radio" name="question1" value="90">90
-                </label>
+            <p>The perimeter of scalene triangle with sides a, b, c is
             </p>
+            <label for="">
+                <input type="radio" name="question8" value="a + b + c">a + b + c
+            </label>
+            <label for="">
+                <input type="radio" name="question8" value="2a">2a
+            </label>
+            <label for="">
+                <input type="radio" name="question8" value="None of these"> None of these
+            </label>
+            
 
         </div>
 
-        <div class="question-container"></div>
+        <div class="question-container">
+            <p>
+                A scalene trianlge has ____ lines of symmetry
+            </p>
+
+            <label for="">
+                <input type="radio" name="question9" id="" value="two">two
+            </label>
+
+            <label for="">
+                <input type="radio" name="question9" value="no">no
+            </label>
+
+            <label for="">
+                <input type="radio" name="question9" value="15"> 15
+            </label>
+
+        </div>
     </form>
 
+    <button class="btn-check" id="submit-answer-btn" >
+        Submit Answer
+    </button>
 
-
-
-
+    <h2 class="output" ></h2>
 </main>
+
+<footer>
+    <p> @  |  2023 | icandoit</p>
+    <ul class="list-unordered">
+        <li>
+            <a href="">Github</a> 
+        </li>
+        <li>
+            <a href="">x</a>
+        </li>
+        <li>
+            <a href="">
+                Instagram
+            </a>
+        </li>
+    </ul>
+
+</footer>
 
 <script src="quiz.js"></script>
 
 </body>
 
 </html>
-
-
-
-
-<!-- <body>
-    <nav>
-        <a href="istriangle.html">CalculateTriangle</a>
-        <a href="quiz.html">Quiz</a>
-        <a href="hypo.html">CalculateHypotenuse</a>
-        <a href="area.html">AreaofTriangle</a>
-    </nav>
-    <h1>Triangle Quiz</h1>
-
-    <form class="quiz">
-        <div class="question-container">
-            <p>What is the third angle for the triangle where angle1 = 45 and angle2 = 90 and angle3 = 45?
-
-                <label for="">
-                    <input type="radio" name="question1" value="45">45
-                </label>
-                <label for="">
-                    <input type="radio" name="question1" value="60">60
-                </label>
-                <label for="">
-                    <input type="radio" name="question1" value="90">90
-                </label>
-            </p>
-
-        </div>
-
-        <div>
-            <p>If a triangle has an angle of 90 degrees, what it is called?
-
-                <label for="">
-                    <input type="radio" name="question2" value="acute">acute
-                </label>
-                <label for="">
-                    <input type="radio" name="question2" value="obtuse">60
-                </label>
-                <label for="">
-                    <input type="radio" name="question2" value="right angle">right angle
-                </label>
-            </p>
-        </div>
-
-        <div class="question-container"></div>
-    </form>
-    <button id="submit-answer-btn">Submit answers</button>
-    <div id="output"></div>
-    <script src="quiz.js"></script>
-     
-</body>
-</html> -->

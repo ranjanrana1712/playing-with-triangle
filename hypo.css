@@ -63,13 +63,13 @@ label, .out{
     font-size: larger;
     
 }
-input {
+/* input {
     width: 100%;
     max-width: 278px;
     border-radius: 0.2rem;
 
 
-}
+} */
 .side-input{
     padding: 12px 0.5rem;
     border: 2px solid var(--primary-color);;

@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+root {
+    --primary-color:#7c3aed;
+}
+body {
+    text-align: center;
+
+}
+
+header h1 {
+    font-family: "Megrim", cursive;
+    text-align: initial;
+    padding-bottom: 0.1rem;
+}
+
+nav {
+    text-align: right;
+}
+
+nav > a {
+    padding:  0 0.5rem;
+}
+
+a {
+    text-decoration-line: none;
+    /* color: white; */
+}
+header {
+    padding: 1rem;
+    background-color: #7c3aed;
+    color: white;
+}
+
+main>h1 {
+    display: block;
+    font-size: 2rem;
+    margin: 2rem 2rem;
+}
+
+main {
+    margin: 0 0 7rem; 
+    
+}
+label {
+    display: block;
+    margin: 1rem 0;
+    font-size: larger;
+    color: #7c3aed;
+    
+}
+
+.angle-input{
+    width: 100%;
+    max-width: 258px;
+}
+
+.input-text {
+    font-size: 14px;
+    padding: 0.6rem 1rem;
+    border: 2px solid #7c3aed;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    
+}
+
+button {
+    display: block;
+    margin: 1rem auto;
+    border: 2px solid;
+    padding: 0.7rem 1rem;
+    max-width: 100%;
+    max-width: 256px;
+    border-radius: 0.5rem;
+    background-color: #7c3aed;
+    text-decoration-line: none;
+    border: none;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}
+
+#output {
+    font-size: larger;
+    margin-top: 20px;
+
+}
+
+footer {
+
+}
+
+footer > div {
+    margin-bottom: 20px;
+}
+footer > a {
+    color: red;
+}

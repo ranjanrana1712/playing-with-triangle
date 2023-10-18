@@ -24,8 +24,6 @@ function isTriangle(){
     else {
         outputE1.innerText ="oh oh! the angles don't form a triangle";
     }
-
-
 }
 
 
